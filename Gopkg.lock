@@ -475,6 +475,12 @@
   version = "kubernetes-1.10.0"
 
 [[projects]]
+  branch = "master"
+  name = "k8s.io/apiserver"
+  packages = ["pkg/util/logs"]
+  revision = "2ee95e8ed1ee3d89902c0d7465695e0527ca7dca"
+
+[[projects]]
   name = "k8s.io/client-go"
   packages = [
     "discovery",
@@ -688,6 +694,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "453d2c7be2c6bbbe8c1ac55f6de00e3f1e65d54de46019c4b257506a24ecab8d"
+  inputs-digest = "4be95df30909aaa6be90457d5eaed21b10f51070326e256ba6c5376e5204ae7b"
   solver-name = "gps-cdcl"
   solver-version = 1
